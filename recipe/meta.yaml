@@ -1,8 +1,8 @@
 {% set name = "pyotp" %}
-{% set version = "2.2.7" %}
+{% set version = "2.3.0" %}
 {% set file_ext = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash_value = "be0ffeabddaa5ee53e7204e7740da842d070cf69168247a3d0c08541b84de602" %}
+{% set hash_value = "fc537e8acd985c5cbf51e11b7d53c42276fee017a73aec7c07380695671ca1a1" %}
 
 package:
   name: '{{ name|lower }}'
