@@ -5,9 +5,13 @@ Home: https://github.com/pyauth/pyotp
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyotp-feedstock/blob/master/LICENSE.txt)
 
 Summary: Python One Time Password Library
+
+Development: https://github.com/pyauth/pyotp
+
+Documentation: https://pyotp.readthedocs.io/
 
 PyOTP - The Python One-Time Password Library. PyOTP is a Python library for generating and verifying one-time passwords. It can be used to implement two-factor (2FA) or multi-factor (MFA) authentication methods in web applications and in other systems that require users to log in. 
 
