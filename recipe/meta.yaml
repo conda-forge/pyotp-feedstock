@@ -1,5 +1,5 @@
 {% set name = "pyotp" %}
-{% set version = "2.5.0" %}
+{% set version = "2.5.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 2fee71d834daf6129b9bb04515587dd069966d63e2703b3238a1a7c2970e6d41
+  sha256: 2a54d393aff3a244b566d78d597c9cb42e91b3b12f3169cec89d9dfff1c9c5bc
 
 build:
   number: 0
