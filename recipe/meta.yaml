@@ -10,16 +10,16 @@ source:
   sha256: d28ddfd40e0c1b6a6b9da961c7d47a10261fb58f378cb00f05ce88b26df9c432
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install --no-deps . -vv
   noarch: python
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
   run:
-    - python
+    - python >=3.6
 
 test:
   imports:
@@ -39,3 +39,4 @@ extra:
   recipe-maintainers:
     - kalling
     - smithsp
+    - jan-janssen
