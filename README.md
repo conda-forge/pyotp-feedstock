@@ -1,11 +1,11 @@
-About pyotp
-===========
+About pyotp-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyotp-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/pyauth/pyotp
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyotp-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python One Time Password Library
 
