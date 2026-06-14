@@ -1,5 +1,5 @@
 {% set name = "pyotp" %}
-{% set version = "2.9.0" %}
+{% set version = "2.10.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 346b6642e0dbdde3b4ff5a930b664ca82abfa116356ed48cc42c7d6590d36f63
+  sha256: d01e9703443616b03c57c700b5cbffd56a1f929c1b0f8f03131bc78c1fca9d3f
 
 build:
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install --no-deps . -vv
   noarch: python
 
@@ -18,7 +18,7 @@ requirements:
   host:
     - python {{ python_min }}
     - pip
-    - setuptools
+    - hatchling
   run:
     - python >={{ python_min }}
 
