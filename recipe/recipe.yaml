@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: pyotp
-  version: "2.12.1"
+  version: "2.12.2"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 8d0c4192f3c5d1b1a8792df23b9d8acbb7e70abd2b160962af55c5700edbd236
+  sha256: 6d581512da252dfda3e9099b8d870469f181e736c2f6320d5253eb00d334dc09
 
 build:
   number: 0
